@@ -33,8 +33,6 @@ To get started with this project, follow these steps:
 git clone https://github.com/Amisha-Prathyanga/react-product-manager.git
 ```
 
-````
-
 ### Navigate to the Project Directory
 
 ```bash
