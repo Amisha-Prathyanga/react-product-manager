@@ -1,5 +1,3 @@
-Here's the entire `README.md` file for you to copy and paste:
-
 ````markdown
 # React Vite Product Manager
 
