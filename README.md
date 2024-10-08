@@ -1,4 +1,3 @@
-````markdown
 # React Vite Product Manager
 
 A simple product management web application built using React and Vite. This project allows users to authenticate and manage products (view, edit, delete) in a user-friendly interface.
@@ -33,6 +32,7 @@ To get started with this project, follow these steps:
 ```bash
 git clone https://github.com/Amisha-Prathyanga/react-product-manager.git
 ```
+
 ````
 
 ### Navigate to the Project Directory
@@ -111,3 +111,4 @@ This serves the production build locally for testing.
 - [Vite](https://vitejs.dev/) - A fast front-end build tool
 - [React Router](https://reactrouter.com/) - A declarative routing for React
 - [Lucide Icons](https://lucide.dev/) - A set of beautiful and customizable icons
+````
