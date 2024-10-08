@@ -93,7 +93,7 @@ const ProductCard = ({ product, onEdit, onDelete }) => (
       </div>
     </Link>
 
-    <style jsx>{`
+    <style>{`
       .hover-shadow:hover {
         transform: translateY(-5px);
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
@@ -105,22 +105,7 @@ const ProductCard = ({ product, onEdit, onDelete }) => (
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
       }
     `}</style>
-    
   </div>
 );
-
-
-const styles = `
-.hover-shadow:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1) !important;
-}
-
-.btn-outline-primary:hover,
-.btn-outline-danger:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
-}
-`;
 
 export default ProductCard;
