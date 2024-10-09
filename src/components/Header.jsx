@@ -8,17 +8,17 @@ const Header = ({ onLogout }) => {
 
   // Check if token exists (in localStorage or localStorage)
   useEffect(() => {
-    const token = localStorage.getItem("token"); // or localStorage.getItem('authToken')
+    const token = localStorage.getItem("token");
     setIsLoggedIn(!!token); // Set to true if token exists, false otherwise
   }, []);
 
   return (
     <header className="futuristic-header position-relative overflow-hidden bg-dark vw-100">
-      {/* Animated background elements */}
+      
       <div className="cyber-grid"></div>
 
       <div className="container-fluid py-5 position-relative">
-        {/* Logout Button */}
+        
         {isLoggedIn && (
           <div className="position-absolute top-0 end-0 p-4 mx-2">
             <button className="btn btn-secondary" onClick={onLogout}>

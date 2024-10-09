@@ -27,7 +27,7 @@ export const logout = async (navigate) => {
       confirmButtonText: "Okay",
     }).then(() => {
       // Redirect to the login page after the alert is closed
-      navigate("/login"); // Adjust the path based on your routing
+      navigate("/login"); 
     });
   } catch (error) {
     console.error(
